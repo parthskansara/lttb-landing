@@ -57,8 +57,8 @@ function App() {
           <img src="/logo.png" alt="listentothis,bro logo" width={100} height={100} className="w-[100px] h-[100px]" />
           <h1 className="text-4xl font-bold">listentothis,bro</h1>
         </div>
-        <p className="text-xl text-center text-muted-foreground">
-          Instantly share Spotify songs to custom playlists <br /> on your friends' accounts directly from your Chrome browser.
+        <p className="text-xl text-center text-muted-foreground px-[320px]">
+          Instantly share Spotify songs to custom playlists on your friends' accounts, directly from your Chrome browser.
         </p>
       </header>
 
@@ -92,7 +92,7 @@ function App() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Get Access</CardTitle>
+              <CardTitle><strong>Get Access</strong> (We've got 15 spots left!)</CardTitle>
               <CardDescription>
                 While we wait for Spotify to approve our extended quota, get access by entering your details below.
               </CardDescription>
