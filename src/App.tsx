@@ -57,8 +57,8 @@ function App() {
           <img src="/logo.png" alt="listentothis,bro logo" width={100} height={100} className="w-[100px] h-[100px]" />
           <h1 className="text-4xl font-bold">listentothis,bro</h1>
         </div>
-        <p className="text-xl text-center text-muted-foreground px-[320px]">
-          Instantly share Spotify songs to custom playlists on your friends' accounts, directly from your Chrome browser.
+        <p className="text-xl text-center text-muted-foreground">
+          Instantly share Spotify songs to custom playlists on your friends' accounts, <br/> directly from your Chrome browser.
         </p>
       </header>
 
