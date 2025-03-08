@@ -92,13 +92,13 @@ function App() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Sign Up</CardTitle>
+              <CardTitle>Get Access</CardTitle>
               <CardDescription>
-                Enter your details to get started with listentothis,bro
+                While we wait for Spotify to approve our extended quota, get access by entering your details below.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-2">
                 <div className="space-y-2">
                   <Label htmlFor="name">Your Name</Label>
                   <Input
@@ -121,6 +121,7 @@ function App() {
                     required
                   />
                 </div>
+                <CardDescription> <br></br>You can only share songs with friends who have access, so it's better if your friend has access too!</CardDescription>
 
                 <div className="space-y-2">
                   <Label htmlFor="friendName">Friend's Name (Optional)</Label>
